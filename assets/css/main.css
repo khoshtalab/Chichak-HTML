@@ -255,14 +255,17 @@ body {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,span,a {
     font-family: six, roboto, Arial;
 }
 
-
+a{
+    text-decoration:none!important;
+}
 .context {
     width: 100%;
     position: absolute;
+    z-index:9999999;
 }
 
 
